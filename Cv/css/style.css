@@ -1,0 +1,277 @@
+:root{
+    --background : #815B5B;
+    --texte: #FFF8EA;
+    --navbar: #9E7676;
+}
+
+/* RESET CSS */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--texte);
+    background-color: var(--background);
+}
+
+
+nav li {
+    color: var(--texte);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: var(--background);
+    align-items: center;
+}
+
+header img {
+    width: auto;
+    border-radius: 100%;
+    width: 75px;
+    margin: 25px;
+}
+
+/* NAVBAR */
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--texte);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+a:visited{
+    color: none;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--navbar);
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 18px 3px rgba(0,0,0,0);
+}
+
+
+nav a {
+    transition: ease-in-out 0.2s;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: var(--background);;
+}
+
+/* PRESENTATION */
+
+.presentation {
+    margin-top: 10vh;
+}
+
+.presentation h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3vw;
+    text-align: center;
+}
+
+.contenue p {
+    margin: 2vh;
+    font-size: 1.5rem;
+    width: 50% 50%;
+}
+
+.texte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texte i {
+    font-size: 2rem;
+}
+
+/* FORMATION */
+
+.formation {
+    margin-top: 10vh;
+}
+
+.formation .titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.formation h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.formation .text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.formation .contain {
+    margin-top: 5vh;
+    max-width: 20%;
+}
+
+.formation .contain ul {
+    padding: 0;
+    text-align: center;
+}
+
+.formation p {
+    font-size: 1.5rem;
+    margin: 1.5vh;
+}
+
+.formation i {
+    font-size: 2rem;
+}
+
+/* EXPERIENCE */
+
+.expe {
+    margin-top: 10vh;
+}
+
+.expe .titre {
+    font-size: 2rem;
+    letter-spacing: 0.3vw;
+    text-align: center;
+    background-color: var(--navbar);
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 18px 3px rgba(0,0,0,0);
+}
+
+.expe li {
+    margin: 20px;
+    text-align: center;
+}
+
+.expe p {
+    font-size: 1.5rem;
+}
+
+/* COMPETENCE */
+
+.competences {
+    margin-top: 10vh;
+}
+
+.competences h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3vw;
+    text-align: center;
+}
+
+
+.competences p {
+    margin: 2vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.competences ul {
+    padding: 0;
+}
+
+/* CONTACT */
+
+
+
+.contact {
+    margin-top: 10vh;
+    padding-top: 2vh;
+    background-color: var(--navbar);
+}
+
+.contact h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3vw;
+    text-align: center;
+}
+
+.contact p {
+    padding: 2vh;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact .contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.lien i {
+    padding-left: 10px;
+}
+
+.lien {
+    transition: ease-in-out 0.2s;
+    border-radius: 25px;
+}
+
+.lien:hover{
+    background-color: var(--background);
+    box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 18px 3px rgba(0,0,0,0);
+}
+.footer{
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;  
+}
+
+.footer h2 {
+    margin: 15px;
+}
+
+.footer .footer_lien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    transition: ease-in-out 0.3s;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.footer a:hover {
+    background-color: var(--navbar);
+    box-shadow: 0px 10px 13px -7px #000000, inset 0px 0px 18px 3px rgba(0,0,0,0);
+    letter-spacing: 1px;
+}
+
+
